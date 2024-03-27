@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kma-the"
+version = "0.1.0"
+description = ""
+authors = ["yoptohlejepeta <peta.kotlan@seznam.cz>"]
+readme = "README.md"
+packages = [{include = "kma_the"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.32.2"
+nashpy = "^0.0.41"
+numpy = "^1.26.4"
+pulp = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
